@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTests" time="1.713" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\NetBeansProjects\javaSynthesisTCC\target\test-classes;D:\NetBeansProjects\javaSynthesisTCC\target\classes;C:\Users\usuário\.m2\repository\com\github\javaparser\javaparser-symbol-solver-core\3.25.4\javaparser-symbol-solver-core-3.25.4.jar;C:\Users\usuário\.m2\repository\com\github\javaparser\javaparser-core\3.25.4\javaparser-core-3.25.4.jar;C:\Users\usuário\.m2\repository\org\javassist\javassist\3.29.2-GA\javassist-3.29.2-GA.jar;C:\Users\usuário\.m2\repository\com\google\guava\guava\32.1.1-jre\guava-32.1.1-jre.jar;C:\Users\usuário\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\usuário\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\usuário\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\usuário\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\usuário\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\usuário\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\usuário\.m2\repository\net\jqwik\jqwik\1.3.5\jqwik-1.3.5.jar;C:\Users\usuário\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\usuário\.m2\repository\net\jqwik\jqwik-api\1.3.5\jqwik-api-1.3.5.jar;C:\Users\usuário\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\usuário\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\usuário\.m2\repository\net\jqwik\jqwik-engine\1.3.5\jqwik-engine-1.3.5.jar;C:\Users\usuário\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\usuário\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\usuário\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\usuário\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\zuluJDK\zulu18.32.11-ca-jdk18.0.2-win_x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\USURIO~2\AppData\Local\Temp\surefire841353769777768701\surefirebooter14295038190040459442.jar C:\Users\usuário\AppData\Local\Temp\surefire841353769777768701 2023-08-23T16-59-28_307-jvmRun1 surefire11280645779728062498tmp surefire_01364036082381056004tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\NetBeansProjects\javaSynthesisTCC\target\test-classes;D:\NetBeansProjects\javaSynthesisTCC\target\classes;C:\Users\usuário\.m2\repository\com\github\javaparser\javaparser-symbol-solver-core\3.25.4\javaparser-symbol-solver-core-3.25.4.jar;C:\Users\usuário\.m2\repository\com\github\javaparser\javaparser-core\3.25.4\javaparser-core-3.25.4.jar;C:\Users\usuário\.m2\repository\org\javassist\javassist\3.29.2-GA\javassist-3.29.2-GA.jar;C:\Users\usuário\.m2\repository\com\google\guava\guava\32.1.1-jre\guava-32.1.1-jre.jar;C:\Users\usuário\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\usuário\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\usuário\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\usuário\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\usuário\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\usuário\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\usuário\.m2\repository\net\jqwik\jqwik\1.3.5\jqwik-1.3.5.jar;C:\Users\usuário\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\usuário\.m2\repository\net\jqwik\jqwik-api\1.3.5\jqwik-api-1.3.5.jar;C:\Users\usuário\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\usuário\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\usuário\.m2\repository\net\jqwik\jqwik-engine\1.3.5\jqwik-engine-1.3.5.jar;C:\Users\usuário\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\usuário\.m2\repository\org\assertj\assertj-core\3.17.2\assertj-core-3.17.2.jar;C:\Users\usuário\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\usuário\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\usuário"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\zuluJDK\zulu18.32.11-ca-jdk18.0.2-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\NetBeansProjects\javaSynthesisTCC"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\USURIO~2\AppData\Local\Temp\surefire841353769777768701\surefirebooter14295038190040459442.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9"/>
+    <property name="user.name" value="usuário"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu18.32+11-CA"/>
+    <property name="maven.ext.class.path" value="D:\NetBeans-14\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\usuário\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\USURIO~2\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="D:\NetBeansProjects\javaSynthesisTCC"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\zuluJDK\zulu18.32.11-ca-jdk18.0.2-win_x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Java\jre1.8.0_261\bin;D:\maven\apache-maven-3.6.3\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git;D:\Git\cmd;C:\Program Files\dotnet\;C:\php;D:\AndroidSDK\tools;D:\AndroidSDK\platform-tools;D:\AndroidSDK\tools\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MongoDB\Server\5.0\bin;D:\nodejs\;C:\ProgramData\ComposerSetup\bin;D:\Python\Scripts\;D:\Python\;C:\Users\usuário\AppData\Local\Microsoft\WindowsApps;C:\JavaLib\antlr-4.8-complete.jar;C:\JavaLib;D:\Microsoft VS Code\bin;C:\Users\usuário\.dotnet\tools;D:\flutter\flutter\bin;C:\php;D:\IntelliJ IDEA 2021.3.1\bin;;D:\Groovy\groovy-4.0.0\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\usuário\AppData\Roaming\npm;C:\Users\usuário\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="18.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="checkGenBlockStmt" classname="br.edu.ifsc.javargtest.MainTests" time="1.451"/>
+</testsuite>

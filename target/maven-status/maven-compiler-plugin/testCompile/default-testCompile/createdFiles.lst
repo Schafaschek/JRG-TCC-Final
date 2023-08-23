@@ -1,0 +1,9 @@
+br\edu\ifsc\javargtest\JRGBase$1.class
+br\edu\ifsc\javargtest\JRGCore.class
+br\edu\ifsc\javargtest\ReflectParserTranslator.class
+br\edu\ifsc\javargtest\JRGLog.class
+br\edu\ifsc\javargtest\JRGLog$Severity.class
+br\edu\ifsc\javargtest\ClassTable.class
+br\edu\ifsc\javargtest\JRGStmt.class
+br\edu\ifsc\javargtest\JRGBase.class
+br\edu\ifsc\javargtest\JRGOperator.class
